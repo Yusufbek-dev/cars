@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts//big-shoulders-display-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/big-shoulders-display-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/lexend-deca-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/lexend-deca-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+
+.container {
+  width: 1240px;
+  margin:0 auto;
+  padding: 0 auto;
+}
+.cars-list {
+  display: flex;
+  justify-content: center;
+  width: 307px;
+  height: 500px;
+  left: 873px;
+  top: 171px;
+  background: #004140;
+  border-radius: 0px 8px 8px 0px;
+}
+.cars-list:nth-child(1) {
+  background-color: #E28625;;
+}
+.cars-list:nth-child(2) {
+  background-color: #006971;;;
+}
+.cars {
+  display: flex;
+  justify-content: center;
+}
+.cars-item {
+  list-style: none;
+  padding: 20px;
+}
+.car-img {
+  width: 64px;
+  height: 40px;
+  left: 308px;
+  top: 219px; 
+  margin: 48px 195px 35px 0;
+}
+
+.header {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+.text {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 25px;
+  line-height: 25px;
+  padding-right: 47px;
+  margin-bottom:83px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.button {
+  background: #F2F2F2;
+  border-radius: 25px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 12px  32px;
+  text-decoration: none;
+  color: #E28625;
+}

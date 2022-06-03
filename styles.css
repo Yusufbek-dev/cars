@@ -20,8 +20,6 @@ html {
 }
 
 
-
-
 .container {
   width: 1240px;
   margin:0 auto;
@@ -35,7 +33,7 @@ html {
   left: 873px;
   top: 171px;
   background: #004140;
-  border-radius: 0px 8px 8px 0px;
+  border-radius:8px 8px;
 }
 .cars-list:nth-child(1) {
   background-color: #E28625;;
